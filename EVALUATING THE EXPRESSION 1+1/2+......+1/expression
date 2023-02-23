@@ -1,0 +1,15 @@
+//EVALUATING THE EXPRESSION 1+1/2+......+1/N
+#include<stdio.h>
+main()
+{
+	int n,i;
+	float sum=0;
+	float m;
+	scanf("%d",&n);
+	for(i=1;i<=n;i++)
+	{
+		m=1/(float)i;
+		sum=sum+m;
+	}
+	printf("\n%.4f",sum);
+}
