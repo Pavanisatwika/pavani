@@ -1,0 +1,12 @@
+//TO PRINT N1,N2 ODD NUMBERS EXCEPT 3RD NUMBER IN THE RANGE 
+#include<stdio.h>
+main()
+{
+	int n1,n2,i;
+	scanf("%d \n%d",&n1,&n2);
+	for(i=n1;i<=n2;i++)
+	{
+		if((i%2!=0)&&(i!=(n1+4)&&i!=(n1+5)))
+		printf("%d\t",i);
+	}
+}
